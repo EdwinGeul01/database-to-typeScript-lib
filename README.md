@@ -11,7 +11,7 @@ Lib to help convert a database schema to typescript interfaces
 ## Installation
 
 ```bash
-$ npm i database-to-typeScript-lib
+$ npm i database-to-typescript-lib
 ```
 
 ## Example in code
@@ -21,7 +21,7 @@ import {
   connectionSettings,
   createInterfaceFile,
   getTablesRegisters,
-} from "database-to-typeScript-lib";
+} from "database-to-typescript-lib";
 
 //create the config connection settings
 const connectionSetting: connectionSettings = {
